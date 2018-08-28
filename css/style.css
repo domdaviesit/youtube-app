@@ -8,3 +8,15 @@ body {
   background-color: #fff;
   margin: 0 auto;
 }
+
+header {
+  /* fixed takes it out of flow -- need to add the width again */
+  position: fixed;
+  text-align: center;
+  width: 560px;
+}
+
+.logo {
+  width: 120px;
+}
+
